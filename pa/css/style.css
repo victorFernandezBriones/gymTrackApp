@@ -1,0 +1,294 @@
+/*-----------------*/
+/*      Común     */
+/*---------------*/
+html,body{
+    padding: 0;
+    margin: 0;    
+}
+
+h3{
+    font-size: 200% !important;
+}
+
+.container{
+    width: 80% !important;
+}
+
+footer{
+    margin-top: 0 !important;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+#brand{
+    width: 60px;
+    height: 60px;
+}
+
+.customFont{
+    font-family: 'Shojumaru', cursive;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+/* label color */
+.input-field label {
+    color: #546e7a;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label{
+    color: #0091ea;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=password]:focus {
+    border-bottom: 1px solid #0091ea;
+    box-shadow: 0 1px 0 0 #0091ea;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #0091ea;
+}
+
+.help-block{
+    color:red !important;
+}
+
+/*-------------------*/
+/*      Login       */
+/*-----------------*/
+
+#login{
+    width: 40%;
+    margin: 0 auto;
+    max-height: 800px;
+}
+
+#fondoLogin{
+    background-image: url(../media/fondoLogin8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;   
+    background-position:center;
+
+}
+
+#btnIngresar{
+    background-color: #673ab7;
+}
+
+#formLogin{
+    margin-top: 7%;
+}
+
+
+#crearCuenta{
+    height: 800px !important;
+    width: 40%;
+}
+
+#linkRegistro a{
+
+    -webkit-transition: color 1s;   
+    transition: color 1s;   
+    color: #00b0ff;
+}
+
+
+#linkRegistro a:hover{    
+    color:#FF1744;
+}
+
+/*----------------------*/
+/*   INICIO USUARIO    */
+/*--------------------*/
+
+
+
+
+
+
+
+
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.opacidad{
+    background-color: captiontext;
+
+}
+
+.paddingTop{
+    padding-top:5% !important;
+
+}
+
+.paddingBottom{
+    padding-bottom: 5% !important;
+}
+
+.marco{
+    border:8px solid rgba(3,169,244,0.3);
+
+}
+
+.parallax-size{
+    height: 500px;
+}
+
+
+
+/*-----------------------*/
+/*      Progreso        */
+/*---------------------*/
+#progreso{
+    background-image: url("../media/fondo2.jpg"); 
+
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+
+#owl-example .item,#owlRegistros .item{
+    margin: 20px !important;
+}
+
+#owl-example .card-panel,#owlRegistros .card-panel{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.right li a:hover{
+    background-color: #fff !important;
+}
+
+.row{
+    margin: 3% !important;
+}
+
+#portafolio{
+    background-image: url("../media/fondoLogin8.png"); 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 4%;
+}
+
+
+/*----------------------------------*/
+/*          MEDIA QUERYS           */
+/*--------------------------------*/
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+
+    #login{
+        width: 500px;       
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    #crearCuenta{
+        width: 500px;
+    }
+
+    #login{
+        width: 500px;           
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+
+    #crearCuenta{
+        width: 400px;
+    }
+
+    #login{
+        width: 400px;    
+    }
+}
+
+@media only screen and (max-width : 421px) {
+    #login{
+        width: 330px;    
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    #crearCuenta{
+        width: 300px;
+    }
+
+    #login{
+        width: 300px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
